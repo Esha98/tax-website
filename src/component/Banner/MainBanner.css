@@ -1,0 +1,53 @@
+.home-section {
+    background: 
+    linear-gradient(rgba(0, 0, 0, 0.9), transparent),
+    url(../../assets/img/banner.jpg) top center no-repeat;
+    background-size: cover;
+    width: 100%;
+    position: relative;
+    padding-top: 205px;
+    padding-bottom: 205px;
+}
+.home-section-overlay {
+    background: #00182c;
+    opacity: 0.60;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.home-title {
+    position: relative;
+    text-align: center;
+    color:var(--color-text);
+    font-weight: 100;
+}
+.home-title span.text, .home-title-video span.text {
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    color: var(--color-text);
+    display: block;
+}
+.btn-white, .btn-white:focus, .btn-white:active {
+    color: #c71224;
+    background: #fff;
+    border: 2px solid #fff;
+}
+.btn {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    border-radius: 5px 5px;
+    display: inline-block;
+    padding: 15px 30px;
+    margin: 10px 10px;
+    transition: all 0.4s ease-in-out;
+}
+.btn-blue, .btn-blue:focus, .btn-blue:active, .btn-blue-full, .btn-blue-full:focus, .btn-blue-full:active {
+    color: #fff;
+    background: #c71224;
+    border: 2px solid #c71224;
+}

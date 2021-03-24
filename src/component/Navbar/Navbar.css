@@ -1,0 +1,24 @@
+/*Navigation*/
+.nav-Container {
+    height: 120px;
+    background-color: var(--color-primary) !important;
+    color: var(--color-text) !important;
+}
+.nav-wrapper {
+    width: 95%;
+}
+.BrandName {
+    font-size: 2.4em;
+    letter-spacing: 3px;
+    font-weight: 300;
+    color: var(--color-text) !important;
+}
+.logo {
+    width: 7em;
+    height: 4.5em;
+}
+.nav-link {
+    color: var(--color-text) !important;
+    font-size: 1.2em;
+    letter-spacing: 1px;
+}
